@@ -107,7 +107,7 @@
 
 * Evaluation Metric: word-level Jaccard score
 
-![](/images/6.2.png)
+![](/images/6.2.jpg)
 
 * Trained RoBERTa model
 
