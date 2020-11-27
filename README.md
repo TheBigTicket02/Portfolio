@@ -37,3 +37,82 @@
 | EffNetB5 (II) | 90.97         | 96.34   |
 
 [Detailed notebook](https://www.kaggle.com/alexalex02/car-classifier-93-75-inference-web-app)
+
+# [Project 3: Semantic Segmentation of High-Resolution Aerial Images](https://github.com/TheBigTicket02/Aerial-Semantic-Segmentation)
+
+* Predicted per-pixel semantic labeling for 8 classes.
+
+![](/images/3.1.png)
+
+| Building | Tree | Clutter | Road | Vegetation|Static Car| Moving Car| Human| mIoU |
+| ---------|:-----|:-------:|:----:|:---------:|:--------:|:---------:|:----:|:----:|
+| 86.79    | 74.16| 58.01   | 71.08| 53.59     |51.34     |39.27      |22.21 |57.06 |
+
+![](/images/3.2.png)
+
+[Detailed notebook](https://www.kaggle.com/alexalex02/car-classifier-93-75-inference-web-app)
+
+# [Project 4: Sentiment Analysis of Amazon Reviews - DistilBert](https://github.com/TheBigTicket02/Sentiment-Analysis-DistilBert)
+
+* Created baseline model - Logistic Regression with Tf-Idf
+* Fine-tuned DistilBert
+* Applied several techniques to increase inference speed and decrease size on GPU and CPU
+
+| Models       | Accuracy |
+| -------------|:--------:|
+| Log Reg      | 90.29    |
+| DistilBert   | 96.22    |
+
+[Detailed notebook](https://www.kaggle.com/alexalex02/sentiment-analysis-distilbert-amazon-reviews)
+
+# [Project 5: NLP Transformers Inference Optimization](https://github.com/TheBigTicket02/Sentiment-Analysis-DistilBert)
+
+* TorchScript
+* Dynamic Quantization
+* ONNX Runtime
+
+### CPU
+
+![](/images/4.1.png)
+
+### GPU
+
+![](/images/4.2.png)
+
+[Detailed notebook on optimization](https://www.kaggle.com/alexalex02/nlp-transformers-inference-optimization)
+
+# [Project 6: Deep Convolutional Generative Adversarial Network (Pytorch C++)](https://github.com/TheBigTicket02/DC-GAN)
+
+* Trained DC-GAN to generate faces using [Anime Face Dataset](https://www.kaggle.com/splcher/animefacedataset)
+
+### After 2 epochs
+
+![](/images/5.1.png)
+
+### After 5 epochs
+
+![](/images/5.2.png)
+
+### After 25 epochs
+
+![](/images/5.3.png)
+
+[Detailed notebook](https://www.kaggle.com/alexalex02/dc-gan-pytorch-c)
+
+# [Project 7: Tweet Sentiment Extraction - RoBERTa](https://github.com/TheBigTicket02/Tweet-Sentiment-Extraction-RoBERTa)
+
+* Goal: Extract support phrases for sentiment labels
+
+![](/images/6.1.png)
+
+* Evaluation Metric: word-level Jaccard score
+
+![](/images/6.2.png)
+
+* Trained RoBERTa model
+
+| Model       | Jaccard Score |
+| ------------|:-------------:|
+| RoBERTa     | 0.7017        |
+
+* Build simple Web App to enter tweet and return support phrases
