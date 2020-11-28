@@ -73,11 +73,11 @@
 
 ### CPU
 
-![](/images/4.1.png)
+![](/images/4.1.1.png)
 
 ### GPU
 
-![](/images/4.2.png)
+![](/images/4.2.1.png)
 
 [Detailed notebook on optimization](https://www.kaggle.com/alexalex02/nlp-transformers-inference-optimization)
 
